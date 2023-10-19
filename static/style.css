@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+/*CSS FOR NAVIGATION*/
+#logo{
+    display: flex;
+    color: aliceblue;
+    align-items: center;
+    margin: -6px 14px;
+    margin-right: 45px;
+    font-size: 18px;
+}
+#logo img{
+    height: 45px;
+    filter: drop-shadow();
+    mix-blend-mode: multiply;
+}
+#navbar{
+    background-color: rgb(219, 53, 53);
+    padding: 15px;
+
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 12px;
+    color: aliceblue;
+    font-size: 20px;
+     
+}
+
+#navbar li a:hover{
+    color: rgb(17, 23, 24);
+}
+
+/*CSS FOR SECTIONS*/
+/*PICTURE and Intro SECTION*/
+#introsec{
+    padding-bottom: 30px;
+    background-color: red;
+    height: 400px;
+    background: url('../static/bg.jpg') center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:  center;
+    font-size: 2rem;
+    color: aliceblue;    
+
+}
+
+#introsec div.small{
+    font-size: 23px;
+    
+}
+/*MISSION SECTION*/
+#missionsec{
+    width:75%;
+    margin: auto;
+    
+    height: 300px;
+}
+#missionsec h3{
+    font-weight: bold;
+    text-align: center;
+    padding-top: 13px;
+}
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 6px;
+    margin: 15px;
+    width:29%;
+    height: 200px;
+    
+}
+.card h3{
+    font-size: 15px;
+    color: aliceblue;
+}
+
+#card1{
+    background: url(../static/performance.jpg) center/cover no-repeat;
+}
+#card2{
+    background: url(../static/freely\ dance.jpg) center/cover no-repeat;
+}
+#card3{
+    background: url(../static/teaching.jpg) center/cover no-repeat;
+}
+
+#sponsersec{
+    background-color:rgb(241, 189, 207);
+    height: 250px;
+
+}
+
+#sponsersec h3{
+    font-weight: bold;
+    text-align: center;
+    padding-top: 13px;
+}
+
+#sponsers{
+    height: 120px;
+    max-width: 683px;
+    margin: auto;
+}
+.spimg{
+    height: 114px;
+    padding: 8px;
+    margin-top: 20px;
+    mix-blend-mode:multiply;
+    align-items: center;
+}
+
+/*footer*/
+#footer{
+        display: flex;
+        background-color: rgb(19, 12, 12);
+        height: 60px;
+        color: aliceblue;
+        align-items: center;
+        justify-content: center;
+}
